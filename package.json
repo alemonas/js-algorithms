@@ -1,0 +1,20 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alemonas/js-algorithms.git",
+  "author": "Alejandro Monasterios <alejandro.monasterios@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "restoreMocks": true
+  }
+}
