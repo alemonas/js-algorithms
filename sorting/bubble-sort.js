@@ -17,6 +17,8 @@ function bubbleSort(nums) {
       }
     }
   } while (swapped);
+
+  return nums;
 }
 
 module.exports = bubbleSort;
